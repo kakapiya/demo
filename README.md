@@ -2,6 +2,8 @@
 
 
 
+# master
+
 初始化版本库，用于生成.git文件
 
 ```sh
@@ -11,7 +13,7 @@ git init
 将所有文件添加到缓存区
 
 ```sh
-git add *
+git add .
 ```
 
 提交当前工作空间的修改内容
@@ -30,6 +32,22 @@ git remote add origin <server>
 
 ```sh
 git push -u origin master
+```
+
+
+
+# gh-page
+
+初始化版本库，用于生成.git文件
+
+```sh
+git init
+```
+
+将仓库连接到远程服务器
+
+```sh
+git remote add origin <server>
 ```
 
 新建并切换到gh-pages分支
