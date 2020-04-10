@@ -1,8 +1,6 @@
-## 怎么用github做项目展示
+# 怎么用github做项目展示
 
-
-
-# master
+## master
 
 初始化版本库，用于生成.git文件
 
@@ -34,9 +32,7 @@ git remote add origin <server>
 git push -u origin master
 ```
 
-
-
-# gh-page
+## gh-pages
 
 初始化版本库，用于生成.git文件
 
@@ -62,4 +58,25 @@ git checkout --orphan gh-pages
 git add . 
 git commit -m "update"
 git push -u origin gh-pages
+```
+
+# git 常用命令
+
+…or create a new repository on the command line
+
+```sh
+echo "# aa-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:kakapiya/aa-.git
+git push -u origin master
+                
+```
+
+…or push an existing repository from the command line
+
+```sh
+git remote add origin git@github.com:kakapiya/aa-.git
+git push -u origin master
 ```
